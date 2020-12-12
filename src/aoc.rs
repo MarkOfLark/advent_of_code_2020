@@ -4,6 +4,7 @@ use std::path::Path;
 
 pub mod day01;
 pub mod day02;
+pub mod day03;
 
 pub type Solution = Result<(String,String),&'static str>;
 
