@@ -9,6 +9,7 @@ fn main() {
         1 => aoc::day01::solve(&args[2]).unwrap(),
         2 => aoc::day02::solve(&args[2]).unwrap(),
         3 => aoc::day03::solve(&args[2]).unwrap(),
+        4 => aoc::day04::solve(&args[2]).unwrap(),
         _ => panic!("Not implemented")
     };
 

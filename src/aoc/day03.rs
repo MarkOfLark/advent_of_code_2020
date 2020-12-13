@@ -9,7 +9,7 @@ pub fn solve( filename: &str ) -> super::Solution {
         line.chars().collect()
     }).collect();
 
-    let mut slopes: Vec<(usize,usize)> = vec!{
+    let slopes: Vec<(usize,usize)> = vec!{
         (1usize,1usize),
         (3usize,1usize),
         (5usize,1usize),
