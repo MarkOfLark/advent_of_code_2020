@@ -90,7 +90,7 @@ pub fn solve( filename: &str ) -> super::Solution {
     let max_id = seat[seat.len()-1].id;
 
     let mut my_seat = 0u32;
-    for s in (0..seat.len()-1) {
+    for s in 0..seat.len()-1 {
         if seat[s].id+2 == seat[s+1].id {
             my_seat = seat[s].id+1;
         }

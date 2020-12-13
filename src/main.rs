@@ -11,6 +11,7 @@ fn main() {
         3 => aoc::day03::solve(&args[2]).unwrap(),
         4 => aoc::day04::solve(&args[2]).unwrap(),
         5 => aoc::day05::solve(&args[2]).unwrap(),
+        6 => aoc::day06::solve(&args[2]).unwrap(),
         _ => panic!("Not implemented")
     };
 
